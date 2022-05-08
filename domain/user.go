@@ -1,12 +1,12 @@
 package domain
 
 type User struct {
-	Id             uint   `db:"id"`
-	Fullname       string `db:"fullname"`
-	Mobile         string `db:"mobile"`
-	ActiveCode     uint   `db:"active_code"`
-	ExpireDateCode string `db:"expire_date_code"`
-	Active         uint   `db:"active"`
-	CreatedAt      string `db:"created_at"`
-	TypeUser       uint   `db:"type_user"`
+	Id             uint   `json:"id"`
+	Fullname       string `json:"fullname"`
+	Mobile         string `json:"mobile"`
+	ActiveCode     uint   `json:"active_code"`
+	ExpireDateCode string `json:"expire_date_code"`
+	Active         uint   `json:"active"`
+	CreatedAt      string `json:"created_at"`
+	TypeUser       uint   `json:"type_user"`
 }

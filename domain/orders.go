@@ -1,11 +1,11 @@
 package domain
 
 type Orders struct {
-	Id          uint   `db:"id"`
-	UserId      uint   `db:"user_id"`
-	TicketId    uint   `db:"ticket_id"`
-	Price       uint   `db:"price"`
-	Ticket      string `db:"ticket"`
-	Transaction string `db:"transaction"`
-	State       uint   `db:"state"`
+	Id          uint   `json:"id"`
+	UserId      uint   `json:"user_id"`
+	TicketId    uint   `json:"ticket_id"`
+	Price       uint   `json:"price"`
+	Ticket      string `json:"ticket"`
+	Transaction string `json:"transaction"`
+	State       uint   `json:"state"`
 }
