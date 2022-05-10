@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/hossein1990/master_ticket/app"
+)
 
 func main() {
 
-	fmt.Println("hi world")
+	app.Start()
 }
