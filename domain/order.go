@@ -1,6 +1,6 @@
 package domain
 
-type Orders struct {
+type Order struct {
 	Id          uint   `json:"id"`
 	UserId      uint   `json:"user_id"`
 	TicketId    uint   `json:"ticket_id"`
